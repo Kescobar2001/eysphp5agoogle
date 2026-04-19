@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 // En TelefonoController.php
 require_once $_SERVER['DOCUMENT_ROOT'] . '/eysphp/config/database.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/eysphp/app/models/Telefono.php';
-
+//Clase telefono
 class TelefonoController {
     private $telefono;
     private $db;

@@ -9,7 +9,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/eysphp/config/database.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/eysphp/app/models/Sexo.php';
 
 
-
+//Clase Controlador Sexo
 class SexoController {
     private $sexo;
     private $db;
